@@ -1,0 +1,10 @@
+pandas
+numpy
+# sklearn
+# lightBGM
+# XGBoost
+# pytorch
+MLflow
+Fastapi
+pycopg
+load_dotenv

@@ -1,0 +1,13 @@
+pipline Architecture__
+
+1st ) pipline.py
+    what it does ?.
+        it will call all the APIs who fetches the data , and get all that data from AcceptedRecored
+        that verify each row from Verify()(which contains all the constraints and verification methods ) function which directly come from verify.py module level python file. once it verify throw that row in duplication() (which checks the row is duplicated or not if yes throw it in dup.row list) and last put each row in database like PostgreSQl.
+
+2nd ) verify.py
+    what it does ?
+        it will verify each row values like quantity isn't negative , price isn't negative and 0 etc...
+3rd ) deplicate.py
+    what it does ?
+        inspect that each row must be unique in their way.
